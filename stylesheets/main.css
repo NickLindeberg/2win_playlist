@@ -1,0 +1,83 @@
+body {
+  background: #EFEFEF;
+}
+
+
+.topnav {
+  background: #2B2B2B;
+  color: white;
+  height: 140px;
+}
+
+.topnav .logo {
+  text-align: right;
+  padding-top: 60px;
+  font-size: 60px;
+  padding-right: 20px;
+}
+
+.links {
+  text-align: left;
+  padding-top: 60px;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #EFEFEF;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 30px;
+  padding: 10px;
+  text-align: left;
+  margin: 2px;
+}
+
+.grid-link {
+  background-color: #EFEFEF
+}
+
+.grid-image img {
+  height: 120px;
+  padding: 0;
+  align-self: stretch;
+}
+
+h1 {
+  color: #48C1FE;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+awesome {
+  color: darkgrey;
+  font-size: 15px;
+}
+
+share {
+  font-size: 40px;
+  padding: 20px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: stretch;
+  background-color: #f1f1f1;
+}
+
+.flex-container > div {
+  background: #2B2B2B;
+  color: white;
+  width: 100px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
